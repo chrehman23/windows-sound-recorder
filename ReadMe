@@ -1,0 +1,6 @@
+pip install soundcard
+pip install soundfile
+
+//to make build
+pip install pyinstaller //this you need to run one time to install package related to build
+pyinstaller --onefile --copy-metadata soundcard --copy-metadata soundfile recorder.py // this is the build making command make user update the file name at the end of the command
