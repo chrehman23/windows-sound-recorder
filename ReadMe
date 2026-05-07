@@ -8,3 +8,4 @@ pyinstaller --onefile --copy-metadata soundcard --copy-metadata soundfile record
 //for mac making build
 pip install soundcard soundfile librosa numpy pyinstaller // to install all the required packages
 pyinstaller --onefile --copy-metadata soundcard --copy-metadata soundfile recorder.py // this is the build making command make user update the file name at the end of the command
+python3 -m PyInstaller --onefile --copy-metadata soundcard --copy-metadata soundfile recorder.py //use this command to make build for mac
